@@ -1,0 +1,81 @@
+/****** Main Styling ******/
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #495057;
+	background-color: #e6e6ff !important;
+	text-align: center;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+  margin-left:30px;
+  bottom:0px;
+  font-size:1em;
+  font-family:"Major Mono Display";
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+input#button {
+  width: 100%;
+  border-radius:0.2em;
+  border:1px grey !important;
+  outline:none;
+  height:2em;
+  background-color:#e9ecef;
+  color:#495057;
+}
+input#button:active{
+  outline:grey 3px solid !important;
+}
+input#button:focus{ 
+  background-color:rgba(210,210,220,1) !important;
+}
+
+.view {
+  position:relative;
+  border-radius:5px;
+  box-shadow:3px 5px 1px -1px rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 40px;
+/*   border: 1px  solid  #aaa; */
+  padding: 20px;
+  width: 70%;
+  min-width: 400px;
+  background-color:rgba(0,0,0,0.3)
+}
+
+.view:active{
+  box-shadow:2px 3px 0px -1px rgba(0,0,0,0.8);
+top:2px;
+left:1px;}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
+

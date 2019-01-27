@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>File Metadata</title>
+      <link rel="shortcut icon" href="https://icons-for-free.com/free-icons/png/256/16610.png" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  </head>
+   <body>
+      <div class="container">
+        <h2>File Metadata Microservice</h2>        
+        <div class="view">
+          <p>
+          Please Upload a File ...
+        </p>
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/analyse">       
+            <div class="input-group mb-3">
+              <div class="custom-file"> 
+                <label class="custom-file-label" for="inputfield">Choose file</label> 
+                <input id="inputfield" type="file" name="upfile">
+              </div>
+            </div>
+              <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+        Made by Mark Halstead 
+        </p>
+      </div>
+   </body>
+</html>
